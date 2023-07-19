@@ -16,7 +16,7 @@ function handleGetData(event) {
         url:'https://botw-compendium.herokuapp.com/api/v2/entry/' + userInput
       }).then(
         (data) => {
-         monsterData = data.data;
+         monsterData = data;
          console.log(data)
          render();
         },

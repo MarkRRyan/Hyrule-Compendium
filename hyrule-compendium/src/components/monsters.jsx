@@ -24,6 +24,7 @@ const Monsters = () => {
             <div >
                 <h1 key={monster.id}>{monster.name} :)</h1>
                 <h3>Compendium ID: {monster.compendiumId}</h3>
+                <img src={monster.image} alt="compendium monster" />
                 <p>{monster.description}</p>
                 <ul>
                     <h4>Drops:</h4>
